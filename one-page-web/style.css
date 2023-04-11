@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+  }
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+/*css reset*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/main1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#photos{
+    background-color: coral;
+}
+#videos{
+    background-color: firebrick;
+}
+#contact{
+    background-color: cornsilk;
+}
+.row{
+    display:flex;
+    height: 88%;
+    align-items: center;
+    
+}
+.col{
+    flex-basis: 50%;}
+h1{
+    color: white;
+    font-size: 80px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+.row1{
+    display:flex;
+    height: 80%;
+    align-items:center;
+    
+}
+.col1{
+    flex-basis: 40%;}
+h2{
+    color: white;
+    font-size: 30px;}
+.row2{
+    display:flex;
+    height: 80%;
+    align-items:center;
+    
+}
+.col2{
+    flex-basis: 40%;}
+h3{
+    color: white;
+    font-size: 30px;}
+.row3{
+    display:flex;
+    height: 80%;
+    align-items:center;
+    
+}
+.col3{
+    flex-basis: 40%;}
+h4{
+    color: black;
+    font-size: 30px;}
+.card{
+   width: 200px;
+    height: 230px;
+    display:inline-block;
+    border-radius: 20px;
+    padding 20px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 20px;
+    background-position: center;
+    background-size:cover;
+    transition: transform 0.5s;
+    }
+.card1{
+    background-image: url(img/manto.jpg)
+}
+.card2{
+    background-image: url(img/Kabuli.jpg)
+}
+.card3{
+    background-image: url(img/ashak.jpg)
+}
+.card4{
+    background-image: url(img/bolani.jpg)
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.cont{
+    width: 70%;
+    margin: 70px auto;
+    
+ }
+.row5{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.feature-image{
+    width: 100%;
+    margin: inherit;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#video-section {
+  position: relative;
+  height: 500px;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+    
+}
+.video-container{
+    width: 100%;
+    height: 80%;
+}
+
+video :focus{
+    outline: none;
+    
+}     
+.info{
+    color: brown;
+    font-size: 50px;
+    margin: 50px 50px 50px 50px;
+}
+h6{
+    color: firebrick;
+    font-size: 20px;
+    
+}
+
+h7{
+    color: firebrick;
+    font-size: 20px;
+    
+}
+    
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+#contact contact-items{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 #0000002c; 
+    
+    
+}
+footer{
+    background-color:darksalmon;
+    
+}
+.footercontainer{
+    width: 100%;
+    padding: 100px 50px 30px;
+}
+.socialicon{
+    display: table-footer-group;
+    justify-content: center;
+}
