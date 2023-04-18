@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Afghan Cusine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="one_page_website.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+      <section id="home">
+        <header>
+            <a href="#"><img src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/null/external-food-wedding-icongeek26-linear-colour-icongeek26.png"/></a>
+            <ul id="menu">
+            <li><a href="#home">Home</a></li>
+                <li><a href="#photos">Photos</a></li>
+                  
+            </ul>
+         
+        </header> 
+        <div class="row">
+            <div class="col">
+         <h1>Afghan Cusine</h1>
+          <p>Afghan culture has evolved over the centuries, and traditional cuisine plays one of the main roles in the life of this people. India and the countries of Central Asia had a great influence on the variety of the menu, but this did not stop the Afghans from surpassing their neighbors.
+
+              Many dishes passed down from generation to generation, from the elders to the youngest. New delicacies appear every day.</p></div></div>
+              
+    </section>
+    <section id="photos">
+      <!-- Images used to open the lightbox -->
+      
+      <div class="row">
+        <div class="column">
+          <img src="img/plant1-small.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="img/plant2-small.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="img/plant3-small.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        
+      </div>
+      
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/plant1.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/plant2.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/plant3.png" style="width:100%">
+          </div>
+      
+          
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="img/plant1.png" onclick="currentSlide(1)" alt="plant1">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/plant2.png" onclick="currentSlide(2)" alt="plant2">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="img/plant3.png" onclick="currentSlide(3)" alt="plant3">
+          </div>
+      
+          </div>
+      </div>
+      </section>
+          
+           
+          
+       
+        
+        
+    </body>
+</html>
